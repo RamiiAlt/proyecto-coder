@@ -11,20 +11,74 @@
     background-color: rgb(255, 248, 220);
 }
 
-header {
-    background-color: rgb(247, 206, 144);
-    padding: 10px 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+
+
+
+
+
+
+header .navbar {
+    background-color: rgb(247, 206, 144) !important;
+    width: 100%;
+    height: auto; 
+    padding: 8px 0;
 }
 
-/* Ajuste: evitar que el carousel quede demasiado chico */
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 16px;
+}
+
+
+nav div {
+    list-style: none;
+    padding: 0;                  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;             
+    gap: 12px;                   
+}
+
+nav div li {
+    margin: 0;                  
+}
+
+li :hover {
+    background-color: rgb(221, 180, 120);
+    border-radius: 8px;
+
+}
+
+nav div li a {
+    font-style: italic;
+    font-weight: bold;
+    white-space: nowrap;        
+    padding: 6px 10px;
+}
+
+
+.navbar img,
+header .logo img {
+    height: 100px;                
+    max-height: 90px;
+    border-radius: 12px;
+    width: auto;
+    display: block;
+}
+
+.contenedor {
+    overflow-x: hidden;
+}
+
+
 .carousel,
 .carousel .carousel-inner,
 .carousel .carousel-item {
-    max-height: 100vh; /* aumenta para que se vea más grande en pantallas grandes */
-    height: auto;     /* dejar auto para que no fuerce un tamaño pequeño */
+    max-height: 100vh; 
+    height: auto;     
     overflow: hidden;
     padding: 20px 20px; 
     
@@ -36,11 +90,11 @@ header {
 .carousel-item img {
     width: 100%;
     margin: auto;
-    height: auto;         /* conservar proporción real de la imagen */
-    max-height: 80vh;     /* límite visual */
-    object-fit: cover;    /* rellena el contenedor recortando si hace falta */
-    border-radius: 20px;  /* bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+    height: auto;         
+    max-height: 80vh;    
+    object-fit: cover;    
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -116,7 +170,7 @@ p {
 
 .info-platos h2 {
     font-size: 2em;
-  color: #6c4a3c; /* tono café */
+    color: #6c4a3c; 
     margin-bottom: 40px;
 }
 
@@ -675,17 +729,17 @@ p {
 .footer {
     display: flex;
 
-    justify-content: space-between; /* separa los lados */
-    align-items: flex-start; /* alinea arriba */
+    justify-content: space-between; 
+    align-items: flex-start; 
     padding: 20px;
     background-color: rgb(247, 206, 144);
     color: #171616;
-    flex-wrap: wrap; /* se acomoda en pantallas chicas */
+    flex-wrap: wrap; 
 }
 
 .footer-info {
     flex: 1;
-  min-width: 250px; /* evita que se rompa el diseño */
+  min-width: 250px;
 }
 
 .footer-info h3 {
@@ -700,7 +754,7 @@ p {
     flex: 1;
     max-width: 400px;
     min-width: 250px;
-    margin-left: 40px; /* empuja el mapa a la derecha */
+    margin-left: 40px; 
 }
 
 .footer-mapa iframe {
