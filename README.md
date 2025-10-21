@@ -1,15 +1,43 @@
 #Proyecto CODERHOUSE
 
-<h1 align="center">Hi 👋, I'm Ramiro Altamirano</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+# 👋 ¡Hola! Soy Ramiro Altamirano
 
-- 🔭 I’m currently working on **Origen Cafe**
+💻 Desarrollador Front-End apasionado por crear interfaces modernas, funcionales y bien diseñadas.  
+Me gusta transformar ideas en experiencias digitales usando tecnologías web actuales.
 
-- 📫 How to reach me **altaramiro7@gmail.com**
+---
 
-<h3 align="left">Connect with me:</h3>
+## 🧠 Tecnologías que uso
+
+### 🧩 Lenguajes y herramientas
+
 <p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+---
+
+## 🚀 Sobre mí
+
+- 🌱 Actualmente aprendiendo más sobre **React.js** y **diseño responsivo**.
+- 🛠️ Trabajo con **HTML**, **CSS**, **JavaScript** y **React** para crear sitios web dinámicos.
+- 🎯 Mi objetivo es seguir mejorando mis habilidades y contribuir a proyectos open source.
+- ☕ Amante del café y del código limpio.
+
+---
+
+## 📂 Algunos de mis proyectos
+
+- 🌐 [Cafetería Web](#) — Sitio completo de una cafetería con secciones animadas y menú interactivo.
+- ⚡ [Portfolio Personal](#) — Portfolio con animaciones suaves y diseño moderno en React.
+- 📝 [Mini To-Do App](#) — Aplicación simple de tareas en JavaScript puro.
+
+---
+
+## 📫 Cómo contactarme
+
+- ✉️ Email: [altaramiro7@gmail.com](altaramiro7@gmail.com)
+
+---
+
+⭐ **“El mejor código es el que hace sonreír a quien lo lee.”**
