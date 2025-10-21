@@ -454,112 +454,112 @@ p {
 }
 /*---------------------------------*/
 .menu-mosaico {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .menu-mosaico h2 {
-  font-size: 2.2em;
-  color: #4B2E2E;
-  margin-bottom: 10px;
+    font-size: 2.2em;
+    color: #4B2E2E;
+    margin-bottom: 10px;
 }
 
 .menu-mosaico p {
-  color: #666;
-  margin-bottom: 40px;
+    color: #666;
+    margin-bottom: 40px;
 }
 
 /* GRID del menú */
 .grid-menu {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-auto-rows: 200px;
-  gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 15px;
 }
 
 /* Tamaños personalizados */
 .item.grande {
-  grid-column: span 2;
-  grid-row: span 2;
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 .item.mediano {
-  grid-column: span 1;
-  grid-row: span 2;
+    grid-column: span 1;
+    grid-row: span 2;
 }
 
 .item.grande-vertical {
-  grid-column: span 1;
-  grid-row: span 3;
+    grid-column: span 1;
+    grid-row: span 3;
 }
 
 .item.chico {
-  grid-column: span 1;
-  grid-row: span 1;
+    grid-column: span 1;
+    grid-row: span 1;
 }
 
 /* Estilos generales de los ítems */
 .item {
-  position: relative;
-  overflow: hidden;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  cursor: pointer;
-  transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
 }
 
 .item:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    width: 100%;
 }
 
 .item .info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 15px;
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-  text-align: left;
-  transition: background 0.3s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: left;
+    transition: background 0.3s;
+    position: absolute;
 }
 
 .item:hover .info {
-  background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.7);
 }
 
 /* Responsivo */
 @media (max-width: 1024px) {
-  .grid-menu {
+    .grid-menu {
     grid-auto-rows: 180px;
-  }
-  .item.grande,
-  .item.grande-vertical {
+    }
+    .item.grande,
+    .item.grande-vertical {
     grid-column: span 2;
     grid-row: span 2;
-  }
+    }
 }
 
 @media (max-width: 768px) {
-  .grid-menu {
+    .grid-menu {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 180px;
-  }
-  .item.grande,
-  .item.grande-vertical {
+    }
+    .item.grande,
+    .item.grande-vertical {
     grid-column: span 2;
     grid-row: span 2;
-  }
+    }
 }
 
 
@@ -782,74 +782,3 @@ p {
 
 
 
-/* tarjeta que estoy probando.. */
-.menu-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
-    padding: 40px;
-}
-.card{
-    background: #fff;
-    border-radius: 14px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-    max-width: 340px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    transition: transform .2s ease;
-}
-
-.card:hover{
-    transform: translateY(-6px);
-}
-
-.card img{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    display: block;
-}
-
-.card-body{
-    padding: 20px;
-}
-
-.card-body h3{
-    margin: 0 0 10px;
-    font-size: 1.6rem;
-    color: #4b2e2e; /* marrón oscuro */
-}
-
-.price{
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin: 0 0 12px;
-    color: #2f2f2f;
-}
-
-.desc{
-    font-size: 1rem;
-    color: #555;
-    margin: 0 0 18px;
-    line-height: 1.4;
-}
-
-.btn{
-    background: #8b4513; /* café oscuro */
-    color: #fff;
-    border: none;
-    padding: 12px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: background .2s ease;
-}
-
-.btn:hover{
-    background: #6a2f0b;
-}
