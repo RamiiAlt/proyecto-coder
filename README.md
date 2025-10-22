@@ -35,9 +35,7 @@ I love turning ideas into digital experiences using the latest web technologies.
 
 ## 📫 Contact Me
 
-- ✉️ Email: [youremail@example.com](mailto:youremail@example.com)  
-- 💼 LinkedIn: [linkedin.com/in/yourusername](#)  
-- 🌍 Portfolio: [yourportfolio.com](#)
+- ✉️ Email: [youremail@example.com](altaramiro7@gmail.com)  
 
 ---
 
