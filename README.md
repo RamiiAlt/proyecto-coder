@@ -35,7 +35,7 @@ I love turning ideas into digital experiences using the latest web technologies.
 
 ## 📫 Contact Me
 
-- ✉️ Email: [youremail@example.com](altaramiro7@gmail.com)  
+- ✉️ Email: [altaramiro7@gmail.com](altaramiro7@gmail.com)  
 
 ---
 
