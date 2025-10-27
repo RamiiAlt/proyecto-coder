@@ -1,43 +1,43 @@
 #Proyecto CODERHOUSE
 
-# 👋 ¡Hola! Soy Ramiro Altamirano
+# 👋 Hi there! I'm Ramiro Altamirano
 
-💻 Desarrollador Front-End apasionado por crear interfaces modernas, funcionales y bien diseñadas.  
-Me gusta transformar ideas en experiencias digitales usando tecnologías web actuales.
+💻 I'm a Front-End Developer passionate about building modern, functional, and beautifully designed interfaces.  
+I love turning ideas into digital experiences using the latest web technologies.
 
 ---
 
-## 🧠 Tecnologías que uso
+## 🧠 Technologies I Use
 
-### 🧩 Lenguajes y herramientas
-
+### 🧩 Languages & Tools
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,react" />
 </p>
 
 ---
 
-## 🚀 Sobre mí
+## 🚀 About Me
 
-- 🌱 Actualmente aprendiendo más sobre **React.js** y **diseño responsivo**.
-- 🛠️ Trabajo con **HTML**, **CSS**, **JavaScript** y **React** para crear sitios web dinámicos.
-- 🎯 Mi objetivo es seguir mejorando mis habilidades y contribuir a proyectos open source.
-- ☕ Amante del café y del código limpio.
-
----
-
-## 📂 Algunos de mis proyectos
-
-- 🌐 [Cafetería Web](#) — Sitio completo de una cafetería con secciones animadas y menú interactivo.
-- ⚡ [Portfolio Personal](#) — Portfolio con animaciones suaves y diseño moderno en React.
-- 📝 [Mini To-Do App](#) — Aplicación simple de tareas en JavaScript puro.
+- 🌱 Currently learning more about **React.js** and **responsive design**.  
+- 🛠️ I work with **HTML**, **CSS**, **JavaScript**, and **React** to create dynamic and user-friendly websites.  
+- 🎯 My goal is to keep improving my skills and contribute to open-source projects.  
+- ☕ Coffee lover and clean code enthusiast.  
 
 ---
 
-## 📫 Cómo contactarme
+## 📂 Some of My Projects
 
-- ✉️ Email: [altaramiro7@gmail.com](altaramiro7@gmail.com)
+- 🌐 [Coffee Shop Website](#) — A complete café website with animated sections and an interactive menu.  
+- ⚡ [Personal Portfolio](#) — A portfolio built with React featuring smooth animations and a modern design.  
+- 📝 [Mini To-Do App](#) — A simple task management app made with vanilla JavaScript.
 
 ---
 
-⭐ **“El mejor código es el que hace sonreír a quien lo lee.”**
+## 📫 Contact Me
+
+- ✉️ Email: [altaramiro7@gmail.com](altaramiro7@gmail.com)  
+
+---
+
+⭐ **“The best code is the one that makes someone smile when they read it.”**
+
