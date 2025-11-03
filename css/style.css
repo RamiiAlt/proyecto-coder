@@ -1,4 +1,3 @@
-
 * {   /* reseteo */
     box-sizing: border-box;
     margin: 0;
@@ -13,9 +12,7 @@
 
 
 
-
-
-
+/* header y navbar */
 
 header .navbar {
     background-color: rgb(247, 206, 144) !important;
@@ -68,12 +65,13 @@ header .logo img {
     width: auto;
     display: block;
 }
+/* carrusel-index */
 
 .contenedor {
     overflow-x: hidden;
 }
 
-
+/* carrusel-index */
 .carousel,
 .carousel .carousel-inner,
 .carousel .carousel-item {
@@ -96,15 +94,6 @@ header .logo img {
     border-radius: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -255,7 +244,11 @@ p {
     margin: 0;
     color: #333;
 }
+/*fin del index*/
 
+
+
+/* Sección Nosotros */
 .nosotros {
     padding: 60px 20px;
     font-family: 'Arial', sans-serif;
@@ -309,7 +302,6 @@ p {
     max-width: 100%;
 }
 
-/* Equipo */
 .equipo {
     margin: 60px auto 0;
     text-align: center;
@@ -356,6 +348,7 @@ p {
     margin: 0;
 }
 
+
 /* Responsivo */
 @media (max-width: 768px) {
     .contenido-nosotros {
@@ -398,7 +391,7 @@ p {
 .bloque:hover {
     transform: translateY(-5px);
 }
-
+/*------ fin de nosotros ------*/
 
 
 
@@ -506,8 +499,10 @@ p {
     padding: 30px 20px;
     }
 }
-/*---------------------------------*/
+/*----------- fin de contacto----------------------*/
 
+
+/* --------Sección Menú---------- */
 .menu-section {
     background-color: #faf6f2;
     font-family: 'Poppins', sans-serif;
@@ -527,7 +522,6 @@ p {
     color: #6d4c41;
 }
 
-/* --- Cada ítem del menú --- */
 .menu-item {
     align-items: center;
     justify-content: space-between;
@@ -545,7 +539,7 @@ p {
     transform: scale(1.02);
 }
 
-/* Imagen grande */
+
 .menu-img {
     flex: 1.2;
 }
@@ -557,7 +551,7 @@ p {
     width: 100%;
 }
 
-/* Texto a la derecha */
+
 .menu-text {
     padding: 40px;
     text-align: left;
@@ -583,7 +577,6 @@ p {
     font-size: 1.4rem;
 }
 
-/* Intercalar diseño (imagen derecha / texto izquierda) */
 .menu-item.reverse {
     text-align: right;
     flex-direction: row-reverse;
@@ -609,8 +602,11 @@ p {
     padding: 25px;
     }
 }
+/* --------- Fin Menú --------- */
 
-/* Galeria de Productos */
+
+
+/*-------- seccion galeria ------*/
 .p-galeria {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -699,7 +695,7 @@ p {
         height: 100px;
     }
 }
-
+/*-------- fin de galeria ------*/
 
 
 
@@ -776,50 +772,3 @@ p {
     color: #555;
 }
 /*fin del footer*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
