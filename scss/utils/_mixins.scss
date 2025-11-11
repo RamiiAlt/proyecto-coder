@@ -1,0 +1,55 @@
+
+/* Flex genérico */
+@mixin flex($justify: center, $align: center, $direction: row, $wrap: nowrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+/* Texto */
+@mixin texto($size: 16px, $color: $dark, $align: center, $family: sans-serif) {
+  font-family: $family;
+  color: $color;
+  text-align: $align;
+  font-size: $size;
+}
+
+/* Card */
+@mixin card($padding: 20px, $r: $radius, $shadow: 0 4px 10px rgba(0,0,0,0.08), $bg: $bg) {
+  background-color: $bg;
+  padding: $padding;
+  border-radius: $r;
+  box-shadow: $shadow;
+}
+
+/* Hover scale */
+@mixin hover-scale($scale: 1.05, $transition: .3s) {
+  transition: transform $transition ease;
+  &:hover { transform: scale($scale); }
+}
+
+/* Media queries por alias */
+@mixin respond($bp) {
+  @if $bp == lg {
+    @media (max-width: $bp-lg) { @content; }
+  } @else if $bp == md {
+    @media (max-width: $bp-md) { @content; }
+  } @else if $bp == sm {
+    @media (max-width: $bp-sm) { @content; }
+  } @else {
+    @media (max-width: $bp) { @content; } /* permite pasar px directamente */
+  }
+}
+
+/* Transiciones múltiples */
+@mixin transicion($props...) {
+  transition: $props;
+}
+
+/* Bordes redondeados */
+@mixin borde-redondeado($r: $radius) {
+  border-radius: $r;
+  overflow: hidden;
+}

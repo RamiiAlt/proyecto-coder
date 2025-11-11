@@ -1,0 +1,79 @@
+.p-galeria {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0 20px;
+
+  img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: block;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .div1 { grid-row: span 3 / span 3; }
+  .div2 { grid-row: span 3 / span 3; }
+  .div3 {
+    grid-row: span 2 / span 2;
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 4;
+  }
+  .div4 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+  .div5 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
+  .div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 1;
+  }
+  .div7 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 4;
+  }
+}
+
+// Galería responsive
+@media (max-width: 600px) {
+  .parent {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    > div {
+      grid-column: auto;
+      grid-row: auto;
+    }
+
+    img {
+      height: 100px;
+    }
+  }
+}

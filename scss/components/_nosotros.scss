@@ -1,0 +1,138 @@
+.nosotros {
+  padding: 60px 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f4f0;
+
+  .contenido-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .texto-nosotros {
+      flex: 1 1 400px;
+
+      h2 {
+        color: #4B2E2E;
+        margin-bottom: 20px;
+        font-size: 2em;
+      }
+
+      p {
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: #555;
+      }
+    }
+
+    .imagen-nosotros {
+      text-align: center;
+      flex: 1 1 400px;
+
+      img {
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        max-width: 100%;
+      }
+    }
+  }
+
+  .valores {
+    h3 {
+      text-align: center;
+      color: #4B2E2E;
+      font-size: 1.8em;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      color: #555;
+      list-style: disc inside;
+    }
+
+    &-bloques {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+
+      .bloque {
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1em;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+        flex: 1 1 220px;
+
+        &:hover {
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }
+
+  .equipo {
+    margin: 60px auto 0;
+    text-align: center;
+    max-width: 1200px;
+
+    h3 {
+      color: #4B2E2E;
+      margin-bottom: 30px;
+      font-size: 1.8em;
+    }
+
+    .tarjetas-equipo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+
+      .tarjeta {
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        max-width: 250px;
+        flex: 1 1 220px;
+        background-color: #fff;
+
+        img {
+          border-radius: 12px;
+          margin-bottom: 15px;
+          width: 100%;
+        }
+
+        h4 {
+          color: #4B2E2E;
+          margin: 0 0 10px;
+        }
+
+        p {
+          color: #555;
+          font-size: 0.9em;
+          line-height: 1.4;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  // Responsivo
+  @media (max-width: 768px) {
+    .contenido-nosotros {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .tarjetas-equipo {
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+}

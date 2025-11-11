@@ -1,0 +1,18 @@
+// ===== UTILIDADES =====
+@use "./utils/variables" as *;
+@use "./utils/mixins" as *;
+
+// ===== BASE =====
+@use "./base/reset";
+@use "./base/tipografia";
+
+// ===== COMPONENTES =====
+@use "./components/header";
+@use "./components/carousel";
+@use "./components/platos";
+@use "./components/testimonios";
+@use "./components/nosotros";
+@use "./components/contacto";
+@use "./components/menu";
+@use "./components/galeria";
+@use "./components/footer";

@@ -1,0 +1,38 @@
+.testimonios {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 60px 20px;
+
+  h2 {
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 2em;
+  }
+
+  .testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    .testimonial-card {
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      flex: 1 1 250px;
+
+      p {
+        color: #3d3c3c;
+        margin-bottom: 15px;
+        font-style: italic;
+      }
+
+      h4 {
+        font-weight: bold;
+        margin: 0;
+        color: #333;
+      }
+    }
+  }
+}

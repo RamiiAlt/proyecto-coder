@@ -1,0 +1,105 @@
+.contacto-fondo {
+  background: url('../assets/cafeteria.jpg') no-repeat center center/cover;
+  padding: 80px 20px;
+  color: #fff;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(6px);
+    z-index: 1;
+    content: "";
+  }
+
+  .overlay {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .contacto-box {
+      color: #333;
+      padding: 40px 30px;
+      border-radius: 15px;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      background: rgba(255, 255, 255, 0.9);
+
+      h2 {
+        color: #4B2E2E;
+        margin-bottom: 15px;
+        font-size: 2em;
+      }
+
+      p {
+        margin-bottom: 25px;
+        color: #555;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 25px;
+
+        input,
+        textarea {
+          border-radius: 8px;
+          border: 1px solid #ccc;
+          font-size: 1em;
+          padding: 12px;
+        }
+      }
+
+      button {
+        background-color: #D17B4D;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        padding: 12px;
+
+        &:hover {
+          background-color: #A65A3A;
+        }
+      }
+
+      .info-integrada {
+        font-size: 0.95em;
+        color: #333;
+        margin-top: 20px;
+
+        p {
+          margin-bottom: 10px;
+        }
+
+        .redes {
+          a {
+            text-decoration: none;
+            color: #D17B4D;
+            font-weight: bold;
+            margin-right: 15px;
+
+            &:hover {
+              color: #A65A3A;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Responsivo
+  @media (max-width: 768px) {
+    .contacto-box {
+      padding: 30px 20px;
+    }
+  }
+}
