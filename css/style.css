@@ -129,12 +129,12 @@ nav div li a:hover {
   margin: auto;
   height: auto;
   max-height: 80vh;
-  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .carousel .carousel-inner .carousel-item {
-  max-height: 100vh;
+  max-height: 80vh;
+  background-color: #f8f9fa;
   height: auto;
   overflow: hidden;
 }
@@ -143,8 +143,8 @@ nav div li a:hover {
   margin: auto;
   height: auto;
   max-height: 80vh;
-  object-fit: cover;
-  border-radius: 20px;
+  border-radius: 0px;
+  object-fit: contain;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
